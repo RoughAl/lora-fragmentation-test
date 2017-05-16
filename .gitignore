@@ -1,0 +1,11 @@
+mbed-os/
+.build
+/mdot/
+/mdot-library/
+.hg/
+.hgignore
+BUILD/
+libmDot-mbed5/
+mbed_settings.*
+.mbed
+
