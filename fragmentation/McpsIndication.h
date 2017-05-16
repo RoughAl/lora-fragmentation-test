@@ -10,7 +10,7 @@ typedef struct sMcpsIndication
     /*!
      * Status of the operation
      */
-    LoRaMacEventInfoStatus_t Status;
+    LoRaMacEventInfoStatus Status;
     /*!
      * Multicast
      */

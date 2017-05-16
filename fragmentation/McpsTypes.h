@@ -8,6 +8,7 @@
 typedef uint32_t TimerTime_t;
 #endif
 
+#ifndef MDOT_EVENT_H
 
 /*!
  * Enumeration containing the status of the operation of a MAC service
@@ -65,7 +66,9 @@ typedef enum eLoRaMacEventInfoStatus
      * message integrity check failure
      */
     LORAMAC_EVENT_INFO_STATUS_MIC_FAIL,
-}LoRaMacEventInfoStatus_t;
+}LoRaMacEventInfoStatus;
+
+#endif
 
 /*!
  *
@@ -244,7 +247,7 @@ typedef struct sMcpsConfirm
     /*!
      * Status of the operation
      */
-    LoRaMacEventInfoStatus_t Status;
+    LoRaMacEventInfoStatus Status;
     /*!
      * Uplink datarate
      */
@@ -287,7 +290,7 @@ typedef struct sMcpsIndication
     /*!
      * Status of the operation
      */
-    LoRaMacEventInfoStatus_t Status;
+    LoRaMacEventInfoStatus Status;
     /*!
      * Multicast
      */

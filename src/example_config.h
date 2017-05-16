@@ -9,6 +9,6 @@
 #define FRAGMENTATION            6
 
 // the active example is the one that will be compiled
-#define ACTIVE_EXAMPLE  FRAGMENTATION
+#define ACTIVE_EXAMPLE  CLASS_C_EXAMPLE
 
 #endif
